@@ -21,7 +21,7 @@ public class Aretina {
         PreparedStatement preparedStatement = connection.prepareStatement(getRequeteSQLPourSetNomAretina());
         int index =1;
         for (int i = 0; i < param.length; i++) {
-            preparedStatement.setInt()
+            // preparedStatement.setInt()
         }
 
     }
